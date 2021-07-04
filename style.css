@@ -1,3 +1,39 @@
-h1{
-    font-family: roboto;
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+section{
+    display: flex;
+}
+.welcome{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    
+}
+.half-side{
+    padding-left: 150px;
+}
+.half-side h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.half-side span{
+    color: orange;   
+}
+.half-side p{
+    color: gray;
+}
+.hire-me{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+}
+.jhankar-mahbub-1 {
+    width: 90%;
 }
