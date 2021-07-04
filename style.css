@@ -34,7 +34,7 @@ body{
     border-radius: 5px;
 }
 .jhankar-mahbub-1 {
-    width: 80%;
+    width: 100%;
 }
 .dream-big{
     display: flex;
@@ -43,6 +43,9 @@ body{
     background-position: right;
     margin-bottom: 100px;
 }
+.jhankar-mahbub-2 {
+    width: 100%;
+}    
 .download-resume{
     text-decoration: none;
     color: white;
