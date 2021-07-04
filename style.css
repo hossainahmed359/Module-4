@@ -54,12 +54,13 @@ body{
 }
 .experiences{
     background-image: url(images/exp-bg.png);
+    background-position: left;
     background-repeat: no-repeat;
     margin-bottom: 150px;
 }
 .experience-header {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 45px;
     padding-left: 130px;
 }
 .experience-box{
@@ -83,4 +84,17 @@ body{
 .sigle-experience p{
     color: gray;
 }
-    
+#border-left-side{
+    border-left: black 7px solid;
+    border-image: linear-gradient(blue , purple);
+    border-image-slice: 10%;
+}
+#border-right-side{
+    border-left: black 7px solid;
+    border-image: linear-gradient(orange , tomato);
+    border-image-slice: 10%;
+}
+footer{
+    text-align: center;
+    color:gray
+}    
