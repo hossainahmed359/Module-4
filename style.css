@@ -3,17 +3,16 @@ body{
     margin: 0;
     
 }
-section{
-    display: flex;
-}
+
 .welcome{
+    display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     margin-bottom: 100px;
     
 }
 .half-side{
-    padding-left: 150px;
+    padding-left: 130px;
 }
 .half-side h1{
     font-weight: bold;
@@ -24,16 +23,31 @@ section{
 }
 .half-side p{
     color: gray;
+    padding-bottom: 10px;
 }
 .hire-me{
     text-decoration: none;
     color: white;
     font-weight: 700;
     padding: 10px 40px;
-    
     background-image: linear-gradient(orange, tomato);
     border-radius: 5px;
 }
 .jhankar-mahbub-1 {
-    width: 90%;
+    width: 80%;
+}
+.dream-big{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
+}
+.download-resume{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
 }
