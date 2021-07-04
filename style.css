@@ -51,3 +51,7 @@ body{
     background-image: linear-gradient(orange, tomato);
     border-radius: 5px;
 }
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
